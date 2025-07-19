@@ -1,0 +1,13 @@
+#set is unordered 
+#for making empty set use e=set{}
+#this is not empty set s={} this is dictionary 
+s={1,5,12,45 }#this is set
+s.add(56) #by this we can add any  number in set
+print("odd-",s)
+s.remove(1) #by this we can any number in set
+#s.pop() this is use to remove random number from set
+print("new set",s)
+s1={1,2,45,6}
+s2={7,8,1,4}
+print("union set-",s1.union(s2)) #In s1 add all s2 elements but not repeated 
+print("intersection set-",s1.intersection(s2)) #this print the common elements from both sets
